@@ -1,0 +1,68 @@
+.page {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.js-button,
+.computer-outcome {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+.emoji {
+  height: 60px;
+  background-color: transparent;
+}
+
+.result {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.score-board {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  margin: 20px;
+}
+
+.won,
+.lost,
+.tied {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.won-title,
+.lost-title,
+.tied-title {
+  font-size: 13px;
+}
+
+.won-score,
+.lost-score,
+.tied-score {
+  font-size: 25px;
+}
